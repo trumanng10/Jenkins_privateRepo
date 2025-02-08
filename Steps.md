@@ -47,8 +47,9 @@ Now, you need to store the token securely in Jenkins.
 2. Under **Source Code Management**, select **Git**.
 3. Enter **Repository URL** (format: `https://github.com/your-username/your-private-repo.git`).
 4. Under **Credentials**, select **github-private-repo**.
-5. Build Steps>Execute shell> command: bash test.sh
-6. Click **Save**.
+5. Branches to build> Branch Specifier> (Leave empty)
+6. Build Steps>Execute shell> command: bash test.sh
+7. Click **Save**.
 
 ---
 
